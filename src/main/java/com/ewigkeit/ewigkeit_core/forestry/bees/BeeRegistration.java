@@ -1,21 +1,15 @@
-package com.example.examplemod.forestry.bees;
+package com.ewigkeit.ewigkeit_core.forestry.bees;
 
-import com.example.examplemod.ExampleMod;
-import com.example.examplemod.forestry.ExampleForestryPlugin;
-import com.noodlepfp.mobees.bee.MoreBeesTaxa;
+import com.ewigkeit.ewigkeit_core.EwigkeitCore;
+import com.ewigkeit.ewigkeit_core.forestry.ExampleForestryPlugin;
 import com.noodlepfp.mobees.feature.MoreBeesApicultureItems;
-import com.noodlepfp.mobees.genetics.allele.MoreBeesAlleles;
 import com.noodlepfp.mobees.item.MoreBeesEnumHoneyComb;
-import forestry.api.core.HumidityType;
-import forestry.api.core.TemperatureType;
-import forestry.api.genetics.alleles.BeeChromosomes;
 import forestry.api.plugin.IApicultureRegistration;
 import net.minecraft.network.chat.TextColor;
-import net.minecraft.resources.ResourceLocation;
 
 public class BeeRegistration {
     public static void registerApiculture(IApicultureRegistration apiculture) {
-        ExampleMod.LOGGER.info("Registering Apiculture!");
+        EwigkeitCore.LOGGER.info("Registering Apiculture!");
         
         TextColor baseColor = TextColor.fromRgb(0x9F9F9F);
         

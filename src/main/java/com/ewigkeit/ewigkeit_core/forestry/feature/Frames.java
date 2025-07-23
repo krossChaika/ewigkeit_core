@@ -1,4 +1,4 @@
-package com.example.examplemod.forestry.feature;
+package com.ewigkeit.ewigkeit_core.forestry.feature;
 import com.noodlepfp.mobees.MoBeesModule;
 import com.noodlepfp.mobees.item.*;
 import forestry.modules.features.*;

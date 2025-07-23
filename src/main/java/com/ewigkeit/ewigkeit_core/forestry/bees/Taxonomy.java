@@ -1,4 +1,4 @@
-package com.example.examplemod.forestry.bees;
+package com.ewigkeit.ewigkeit_core.forestry.bees;
 
 import forestry.api.genetics.ForestryTaxa;
 import forestry.api.genetics.alleles.BeeChromosomes;

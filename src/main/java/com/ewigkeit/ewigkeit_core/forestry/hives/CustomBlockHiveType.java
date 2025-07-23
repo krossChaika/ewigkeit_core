@@ -1,6 +1,6 @@
-package com.example.examplemod.forestry.hives;
+package com.ewigkeit.ewigkeit_core.forestry.hives;
 
-import com.example.examplemod.forestry.bees.Species;
+import com.ewigkeit.ewigkeit_core.forestry.bees.Species;
 import forestry.api.core.IBlockSubtype;
 import net.minecraft.resources.ResourceLocation;
 

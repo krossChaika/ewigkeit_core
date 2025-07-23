@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.ewigkeit.ewigkeit_core;
 
 import java.util.Dictionary;
 import java.util.function.Supplier;

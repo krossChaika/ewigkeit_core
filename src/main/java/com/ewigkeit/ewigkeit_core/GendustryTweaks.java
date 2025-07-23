@@ -1,11 +1,9 @@
-package com.example.examplemod;
+package com.ewigkeit.ewigkeit_core;
 import org.slf4j.Logger;
 import sun.misc.Unsafe;
-import thedarkcolour.gendustry.*;
 import thedarkcolour.gendustry.blockentity.IndustrialApiaryBlockEntity;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
 
 public class GendustryTweaks {
     private Logger logger;

@@ -1,7 +1,4 @@
-package com.example.examplemod;
-
-import java.util.Dictionary;
-import java.util.function.Supplier;
+package com.ewigkeit.ewigkeit_core;
 
 public class ServiceLocator {
     private ServiceLocatorBindings bindings;

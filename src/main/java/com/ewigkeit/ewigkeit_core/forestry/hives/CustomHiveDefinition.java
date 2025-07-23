@@ -1,9 +1,8 @@
-package com.example.examplemod.forestry.hives;
+package com.ewigkeit.ewigkeit_core.forestry.hives;
 
-import com.example.examplemod.forestry.bees.Species;
-import com.example.examplemod.forestry.feature.CustomApicultureBlocks;
+import com.ewigkeit.ewigkeit_core.forestry.bees.Species;
+import com.ewigkeit.ewigkeit_core.forestry.feature.CustomApicultureBlocks;
 import com.noodlepfp.mobees.core.data.tag.MoreBeesTags;
-import forestry.api.ForestryTags;
 import forestry.api.apiculture.genetics.IBeeSpecies;
 import forestry.api.apiculture.hives.IHiveDefinition;
 import forestry.api.apiculture.hives.IHiveGen;
@@ -12,9 +11,6 @@ import forestry.api.core.TemperatureType;
 import forestry.api.core.ToleranceType;
 import forestry.api.genetics.ClimateHelper;
 import forestry.api.genetics.alleles.BeeChromosomes;
-import forestry.apiculture.blocks.BlockHiveType;
-import forestry.apiculture.features.ApicultureBlocks;
-import forestry.apiculture.hives.HiveDefinition;
 import forestry.apiculture.hives.HiveGenGround;
 import forestry.core.utils.SpeciesUtil;
 import net.minecraft.core.BlockPos;
@@ -24,12 +20,7 @@ import net.minecraft.tags.BiomeTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.biome.Biome;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
-
-import java.util.List;
-
-import static forestry.api.ForestryTags.*;
 
 public enum CustomHiveDefinition implements IHiveDefinition {
     MOON(CustomApicultureBlocks.BEEHIVE.get(CustomBlockHiveType.MOON).defaultState(), 2.0f, Species.MOON,

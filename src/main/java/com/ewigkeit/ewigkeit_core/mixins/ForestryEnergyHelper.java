@@ -1,4 +1,4 @@
-package com.example.examplemod.mixins;
+package com.ewigkeit.ewigkeit_core.mixins;
 
 import forestry.energy.EnergyHelper;
 import forestry.energy.ForestryEnergyStorage;

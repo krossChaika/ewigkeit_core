@@ -1,4 +1,4 @@
-package com.example.examplemod.mixins;
+package com.ewigkeit.ewigkeit_core.mixins;
 
 import org.apache.commons.lang3.reflect.FieldUtils;
 import forestry.core.fluids.FilteredTank;

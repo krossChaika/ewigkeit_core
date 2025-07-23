@@ -1,6 +1,5 @@
-package com.example.examplemod.mixins;
+package com.ewigkeit.ewigkeit_core.mixins;
 
-import com.example.examplemod.ExampleMod;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;

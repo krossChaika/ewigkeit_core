@@ -1,6 +1,6 @@
-package com.example.examplemod.forestry.hives;
+package com.ewigkeit.ewigkeit_core.forestry.hives;
 
-import com.example.examplemod.forestry.feature.CustomApicultureTiles;
+import com.ewigkeit.ewigkeit_core.forestry.feature.CustomApicultureTiles;
 import forestry.apiculture.tiles.TileHive;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;

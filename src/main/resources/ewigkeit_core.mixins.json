@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "com.ewigkeit.ewigkeit_core.mixins",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "ewigkeit_core.refmap.json",
   "mixins": [
     "GendustryIndustrialApiary", "ForestryEnergyHelper", "GendustryMutatron"
   ],

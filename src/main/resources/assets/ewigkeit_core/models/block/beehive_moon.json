@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "ewigkeit_core:block/beehive/moon_top",
+        "north": "ewigkeit_core:block/beehive/moon_side",
+        "east": "ewigkeit_core:block/beehive/moon_side",
+        "south": "ewigkeit_core:block/beehive/moon_side",
+        "west": "ewigkeit_core:block/beehive/moon_side",
+        "bottom": "ewigkeit_core:block/beehive/moon_bottom"
+    }
+}

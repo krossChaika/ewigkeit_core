@@ -55,8 +55,6 @@ public class EwigkeitCore
     //
     // public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () ->
     //         new Item(new Item.Properties().food(new FoodProperties.Builder().alwaysEat().nutrition(1).saturationMod(2f).build())));
-
-    // Creates a creative tab with the id "examplemod:example_tab" for the example item, that is placed after the combat tab
     
 
     public EwigkeitCore(FMLJavaModLoadingContext context)
@@ -78,29 +76,11 @@ public class EwigkeitCore
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
         
         new GendustryTweaks(LOGGER).Run();
-        // Dictionary<Class<?>, Supplier<?>> dictionary = new Hashtable<>();
-        // dictionary.put(Logger.class, () -> LOGGER);
-        // Services = new ServiceLocator(new ServiceLocatorBindings(dictionary));
         LOGGER.info("EwigkeitCore loaded");
-        // CreativeModeTabs.allTabs().forEach(x -> LOGGER.info(x.getDisplayName().getString()));
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        LOGGER.info("EwigkeitCore Common Setup");
-        
-        
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            // event.accept(EXAMPLE_BLOCK_ITEM);
-        }
-        // Hives
-        // for (CustomBlockHiveType type : CustomBlockHiveType.values()) {
-        //     if (type.getSpeciesId().toString().contains("mobees")) {
-        //         CREATIVE_MODE_TABS.accept(CustomApicultureBlocks.BEEHIVE.get(type));
-        //     }
-        // }
+        // LOGGER.info("EwigkeitCore Common Setup");
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

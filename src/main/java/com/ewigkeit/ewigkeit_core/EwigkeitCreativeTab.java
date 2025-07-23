@@ -19,16 +19,12 @@ public class EwigkeitCreativeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS
             = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EwigkeitCore.MOD_ID);
     
-    private static CreativeModeTab.Builder builder;
-    
     public static RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("ewigkeit_tab",
             () -> CreativeModeTab.builder()
                     .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
                     .title(Component.translatable("creativetab.ewigkeit"))
                     .icon(() -> ForgeRegistries.ITEMS.getValue(ResourceLocation.parse("minecraft:iron_ingot")).getDefaultInstance())
                     .displayItems(EwigkeitCreativeTab::addDisplayItems).build());
-    
-    public static List<Item> itemsToAdd = new ArrayList<Item>();
     
     private static void addDisplayItems(CreativeModeTab.ItemDisplayParameters parameters, CreativeModeTab.Output output) {
         // Hives

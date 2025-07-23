@@ -27,6 +27,7 @@ public enum CustomHiveDefinition implements IHiveDefinition {
             new HiveGenGround(MoreBeesTags.Blocks.ALPINE_HIVE_GROUNDS)) {
         @Override
         public boolean isGoodBiome(Holder<Biome> biome) {
+            // biome.containsTag()
             return biome.is(BiomeTags.IS_MOUNTAIN);
         }
         

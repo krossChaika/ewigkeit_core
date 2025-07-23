@@ -76,9 +76,11 @@ public class EwigkeitCore
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
         
         new GendustryTweaks(LOGGER).Run();
-        Dictionary<Class<?>, Supplier<?>> dictionary = new Hashtable<>();
-        dictionary.put(Logger.class, () -> LOGGER);
-        Services = new ServiceLocator(new ServiceLocatorBindings(dictionary));
+        // Dictionary<Class<?>, Supplier<?>> dictionary = new Hashtable<>();
+        // dictionary.put(Logger.class, () -> LOGGER);
+        // Services = new ServiceLocator(new ServiceLocatorBindings(dictionary));
+        LOGGER.info("EwigkeitCore loaded");
+        CreativeModeTabs.allTabs().forEach(x -> LOGGER.info(x.getDisplayName().getString()));
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

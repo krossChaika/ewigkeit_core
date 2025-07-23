@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.examplemod.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "examplemod.refmap.json",
+  "mixins": [
+    "GendustryIndustrialApiary", "ForestryEnergyHelper", "GendustryMutatron"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
